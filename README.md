@@ -14,13 +14,20 @@ Because Google charges app developers for using their APIs, you will have to cre
 To create an app, go to [this page](https://console.developers.google.com/projectcreate).
 
 ![Project name input. First step creating a new Google app.](https://gottocode.com/media/google-developers-new-project-step-1.png "Step 1")
+
 Choose a project name (irrelevant) and click "Create".
+
 ![Google project page.](https://gottocode.com/media/google-developers-new-project-step-2.png "Step 2")
+
 After being redirected to the new app's page, click on "ENABLE APIS AND SERVICES". Find the Gmail API and go to it's page.
+
 ![Gmail API page.](https://gottocode.com/media/google-developers-new-project-step-3.png "Step 3")
+
 When on the page, click "ENABLE" and then "Create credentials" on the next page (top, right corner).
 On the text "If you wish you can skip this step and create an API key, client ID, or service account" click on "client ID". Google will redirect you to setting up the consent screen. What's typed on that screen doesn't matter for the purpose of this Docker image. When choosing "Application type" on the next screen, select "Other". After these two steps, Google will redirect to the "Credentials" screen for the app and show a popup with credentials which were just created.
+
 ![Google Credentials screen for an app.](https://gottocode.com/media/google-developers-new-project-step-4.png "Step 4")
+
 Close it and instead download the credentials to a new and empty directory on your hard drive. Rename the file to "client_secret.json".
 
 # Step 2: Obtain credentials from Google
